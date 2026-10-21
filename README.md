@@ -11,8 +11,23 @@ pack and builds the index the assistant reads.
 
 ## Install
 
+Until the first release on PyPI, the package is on TestPyPI:
+
+```sh
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ cmsis-developer-assistant-tools==0.1.0
+```
+
+Once published on PyPI:
+
 ```sh
 pip install cmsis-developer-assistant-tools
+```
+
+As a command-line tool in an environment of its own, with pipx or uv:
+
+```sh
+pipx install cmsis-developer-assistant-tools
+uv tool install cmsis-developer-assistant-tools
 ```
 
 Python 3.10 or later. The only dependency is PyYAML; the index is written with the
