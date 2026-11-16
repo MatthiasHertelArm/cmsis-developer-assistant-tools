@@ -1,6 +1,6 @@
 # How to add a knowledge database to your pack
 
-This guide is for CMSIS partners who make a BSP or a DFP pack. It uses the pack
+This guide is for anyone that makes a BSP or a DFP pack. It uses the pack
 [MicroBit::MicroBit_V2_BSP](https://github.com/Open-CMSIS-Pack/MicroBit_V2_BSP) as a complete example.
 
 When you add knowledge to your pack, the CMSIS Developer Assistant gets the facts of your board. An AI agent can
